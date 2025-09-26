@@ -2,11 +2,6 @@
 @import 'mixins';
 @import 'navbar';
 @import 'footer';
-@import 'variables';
-@import 'mixins';
-@import 'navbar';
-@import 'footer';
-
 
 $color-fondo: #221f1f;
 $color-texto: #f9f9f9;
@@ -96,7 +91,8 @@ body {
   gap: 20px;
   margin: 20px 0 -80px;
   .promo-video {
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
     border-radius: 5px;
   }
   .promo-texto {
@@ -247,6 +243,12 @@ main.contacto {
       flex-direction: column;
     }
   }
+  .redes { 
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+  }
+
 
   .mapa iframe {
     width: 100%;
