@@ -102,7 +102,7 @@ body {
 
 
 .galeria {
-  background-image: url(foto\ galeria.jpeg);
+  background-image: url(assets/img/fotogaleria.jpeg);
   display: flex;
   justify-content: center;
 
@@ -256,6 +256,11 @@ main.contacto {
   }
 }
 
+@media(max-width: 992px) { 
+  .navbar-text { 
+    display: none;
+  }
+}
 
 @media (max-width: 768px) {
   .productos { grid-template-columns: repeat(2, 1fr); }
